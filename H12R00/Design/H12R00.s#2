@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -313,6 +313,29 @@
 <text x="-2.54" y="-2.54" size="1.9304" layer="27">&gt;VALUE</text>
 <smd name="P$2" x="0" y="0" dx="1.599996875" dy="0.999996875" layer="16" roundness="50" rot="R180" cream="no"/>
 </package>
+<package name="TE_3-644456-2">
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="1.168" x2="3.658" y2="1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="-1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="1.168" x2="3.658" y2="-1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="1.168" x2="-1.118" y2="1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="21"/>
+<wire x1="-1.368" y1="-1.418" x2="-1.368" y2="1.418" width="0.05" layer="39"/>
+<wire x1="-1.368" y1="1.418" x2="3.908" y2="1.418" width="0.05" layer="39"/>
+<wire x1="3.908" y1="1.418" x2="3.908" y2="-1.418" width="0.05" layer="39"/>
+<wire x1="3.908" y1="-1.418" x2="-1.368" y2="-1.418" width="0.05" layer="39"/>
+<text x="-2.118" y="2.418" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.118" y="-3.418" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.768" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.768" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="1.37" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.02" diameter="1.37"/>
+</package>
 <package name="C1206K" urn="urn:adsk.eagle:footprint:23189/1">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 3216</description>
@@ -468,17 +491,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <vertex x="-3.47" y="-2.2225"/>
 <vertex x="-2.835" y="-2.2225"/>
 </polygon>
-</package>
-<package name="1546111-2">
-<pad name="1" x="-2.54" y="0" drill="1.5" diameter="2.5" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.5" diameter="2.5"/>
-<wire x1="-6.24" y1="3.85" x2="-6.24" y2="-4.65" width="0.254" layer="21"/>
-<wire x1="5.89" y1="3.85" x2="5.89" y2="-4.65" width="0.254" layer="21"/>
-<wire x1="-6.24" y1="-4.65" x2="5.89" y2="-4.65" width="0.254" layer="21"/>
-<wire x1="-6.24" y1="3.85" x2="5.89" y2="3.85" width="0.254" layer="21"/>
-<rectangle x1="-6.3" y1="-4.6" x2="6" y2="-3.6" layer="21"/>
-<text x="-6.44" y="-6.79" size="1.016" layer="25">&gt;NAME</text>
-<text x="-6.44" y="-8.2" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -693,6 +705,16 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="0" y="-3.81" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-6.35" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="3-644456-2">
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<text x="4.31" y="3.81" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
+<text x="3.81" y="-6.35" size="1.778" layer="96" rot="MR0">&gt;VALUE</text>
+<pin name="1" x="7.62" y="1.27" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-1.27" length="middle" direction="pas" rot="R180"/>
+</symbol>
 <symbol name="T491D106K050AT">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
@@ -730,16 +752,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pin name="K" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <text x="1.27" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
 <text x="13.97" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="1546111-2">
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="10.16" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="2" x="10.16" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<text x="-2.54" y="5.842" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-4.318" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -977,6 +989,35 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="3-644456-2" prefix="J">
+<gates>
+<gate name="G$1" symbol="3-644456-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_3-644456-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]"/>
+<attribute name="COMMENT" value="3-644456-2"/>
+<attribute name="DESCRIPTION" value=" Connector Unshrouded Header HDR 2 Position 2.54mm Solder Straight Thru-Hole "/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="3-644456-2"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PRODUCT_TYPE" value="Connector"/>
+<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-3-644456-2.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="C-1206" prefix="C">
 <description>Cap Tant Solid SMD 1206</description>
 <gates>
@@ -1090,27 +1131,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="OCTOPART_URL" value="https://octopart.com/1751251-phoenix+contact-36473?r=sp&amp;s=9M0VWNoHTyq04j3qI6lQOQ" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1546111-2" prefix="P" uservalue="yes">
-<description>Conn Shrouded Header HDR 2 POS 5.08mm Solder ST Thru-Hole</description>
-<gates>
-<gate name="G$1" symbol="1546111-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1546111-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFN" value="TE Connectivity" constant="no"/>
-<attribute name="MPN" value="1546111-2" constant="no"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/1546111-2-te+connectivity-40393355" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1728,6 +1748,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P1" library="hexabitz_connectors" deviceset="HEXABIT_?_NO_P3_P6" device="17.32"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="PWR" library="Hexabitz" deviceset="3-644456-2" device=""/>
 <part name="C11" library="Hexabitz" deviceset="C-1206" device="" value="100 nF">
 <attribute name="CAPACITANCE" value="100 nF"/>
 <attribute name="CAPACITANCE_TOLERANCE" value="±10%"/>
@@ -1792,12 +1813,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY20" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY21" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY23" library="supply2" deviceset="AGND" device="" value="VSSA"/>
+<part name="ANALOG_INPUT" library="Hexabitz" deviceset="CON-PHOENIX-350_1751248" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device="" value="VS"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PWR" library="Hexabitz" deviceset="1546111-2" device=""/>
-<part name="AIN" library="Hexabitz" deviceset="CON-PHOENIX-350_1751248" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13066,6 +13086,10 @@ Analog Input Module</text>
 <text x="235.331" y="161.163" size="2.1844" layer="150">Analog Input</text>
 </plain>
 <instances>
+<instance part="PWR" gate="G$1" x="34.163" y="150.368" smashed="yes">
+<attribute name="NAME" x="31.123" y="155.448" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.353" y="145.288" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="C11" gate="G$1" x="58.293" y="149.098" smashed="yes">
 <attribute name="NAME" x="59.817" y="152.019" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.817" y="146.939" size="1.778" layer="96"/>
@@ -13136,21 +13160,17 @@ Analog Input Module</text>
 <instance part="SUPPLY23" gate="G$1" x="193.802" y="57.023" smashed="yes">
 <attribute name="VALUE" x="196.469" y="55.118" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="226.06" y="142.24" smashed="yes">
-<attribute name="VALUE" x="228.727" y="140.335" size="1.778" layer="96" rot="R180"/>
+<instance part="ANALOG_INPUT" gate="-1" x="237.49" y="155.575" smashed="yes">
+<attribute name="NAME" x="238.76" y="154.686" size="1.778" layer="95"/>
+</instance>
+<instance part="ANALOG_INPUT" gate="-2" x="237.49" y="147.955" smashed="yes">
+<attribute name="NAME" x="238.76" y="147.066" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY24" gate="G$1" x="226.06" y="142.875" smashed="yes">
+<attribute name="VALUE" x="228.727" y="140.97" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="113.792" y="115.824" smashed="yes" rot="R180">
 <attribute name="VALUE" x="115.697" y="120.523" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PWR" gate="G$1" x="31.623" y="149.098" smashed="yes">
-<attribute name="NAME" x="29.083" y="154.94" size="1.27" layer="95"/>
-<attribute name="VALUE" x="29.083" y="144.78" size="1.27" layer="96"/>
-</instance>
-<instance part="AIN" gate="-1" x="240.03" y="151.13" smashed="yes">
-<attribute name="NAME" x="241.3" y="150.241" size="1.778" layer="95"/>
-</instance>
-<instance part="AIN" gate="-2" x="240.03" y="157.48" smashed="yes">
-<attribute name="NAME" x="241.3" y="156.591" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -13163,9 +13183,9 @@ Analog Input Module</text>
 <label x="87.122" y="96.393" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AIN" gate="-2" pin="K"/>
-<wire x1="237.49" y1="157.48" x2="222.25" y2="157.48" width="0.1524" layer="91"/>
-<label x="222.25" y="157.48" size="1.778" layer="95"/>
+<pinref part="ANALOG_INPUT" gate="-1" pin="K"/>
+<wire x1="234.95" y1="155.575" x2="222.25" y2="155.575" width="0.1524" layer="91"/>
+<label x="222.25" y="155.575" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13198,12 +13218,30 @@ Analog Input Module</text>
 <junction x="159.512" y="93.853"/>
 </segment>
 </net>
+<net name="VSS" class="0">
+<segment>
+<pinref part="PWR" gate="G$1" pin="1"/>
+<wire x1="41.783" y1="151.638" x2="45.593" y2="151.638" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="G$1" pin="VSS"/>
+<wire x1="45.593" y1="151.638" x2="45.593" y2="157.988" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY16" gate="G$1" pin="VSS"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="58.293" y1="157.988" x2="58.293" y2="156.718" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="+"/>
+<wire x1="58.293" y1="156.718" x2="58.293" y2="154.178" width="0.1524" layer="91"/>
+<wire x1="69.723" y1="154.178" x2="69.723" y2="156.718" width="0.1524" layer="91"/>
+<wire x1="69.723" y1="156.718" x2="58.293" y2="156.718" width="0.1524" layer="91"/>
+<junction x="58.293" y="156.718"/>
+</segment>
+</net>
 <net name="AGND" class="0">
 <segment>
 <pinref part="SUPPLY14" gate="G$1" pin="AGND"/>
 <wire x1="45.593" y1="142.748" x2="45.593" y2="149.098" width="0.1524" layer="91"/>
-<wire x1="45.593" y1="149.098" x2="41.783" y2="149.098" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="G$1" pin="2"/>
+<wire x1="45.593" y1="149.098" x2="41.783" y2="149.098" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="AGND"/>
@@ -13249,9 +13287,9 @@ Analog Input Module</text>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="AGND"/>
-<pinref part="AIN" gate="-1" pin="K"/>
-<wire x1="237.49" y1="151.13" x2="226.06" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="151.13" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="145.415" x2="226.06" y2="147.955" width="0.1524" layer="91"/>
+<pinref part="ANALOG_INPUT" gate="-2" pin="K"/>
+<wire x1="226.06" y1="147.955" x2="234.95" y2="147.955" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AI" class="0">
@@ -13277,22 +13315,6 @@ Analog Input Module</text>
 <pinref part="U2" gate="A" pin="+VS"/>
 <pinref part="SUPPLY18" gate="G$1" pin="VSS"/>
 <wire x1="113.792" y1="106.553" x2="113.792" y2="113.284" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="41.783" y1="151.638" x2="45.593" y2="151.638" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="G$1" pin="VSS"/>
-<wire x1="45.593" y1="151.638" x2="45.593" y2="157.988" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SUPPLY16" gate="G$1" pin="VSS"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="58.293" y1="157.988" x2="58.293" y2="156.718" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="+"/>
-<wire x1="58.293" y1="156.718" x2="58.293" y2="154.178" width="0.1524" layer="91"/>
-<wire x1="69.723" y1="154.178" x2="69.723" y2="156.718" width="0.1524" layer="91"/>
-<wire x1="69.723" y1="156.718" x2="58.293" y2="156.718" width="0.1524" layer="91"/>
-<junction x="58.293" y="156.718"/>
 </segment>
 </net>
 </nets>
