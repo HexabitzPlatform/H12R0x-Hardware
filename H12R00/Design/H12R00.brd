@@ -1536,7 +1536,7 @@ design rules under a new name.</description>
 <element name="R7" library="Hexabitz" package="R-0805" value="49.9 Ω" x="35.7505" y="35.1917" smashed="yes">
 <attribute name="MFN" value="Vishay" x="35.7505" y="35.1917" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CRCW080549R9FKEA" x="35.7505" y="35.1917" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.6479" y="35.7378" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="30.5054" y="35.7378" size="1.016" layer="25" rot="R180"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/crcw080549r9fkea-vishay-39436139" x="35.7505" y="35.1917" size="1.778" layer="27" display="off"/>
 <attribute name="RESISTANCE" value="49.9 Ω" x="35.7505" y="35.1917" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="35.7505" y="35.1917" size="1.778" layer="27" display="off"/>
@@ -1546,7 +1546,7 @@ design rules under a new name.</description>
 <attribute name="CAPACITANCE" value="33 nF" x="32.2072" y="35.1917" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFN" value="AVX" x="32.2072" y="35.1917" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="0603YC333KAT2A" x="32.2072" y="35.1917" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="30.48" y="35.7378" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="28.2829" y="35.7505" size="1.016" layer="25" rot="R180"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/0603yc333kat2a-avx-2224311" x="32.2072" y="35.1917" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="±10 %" x="32.2072" y="35.1917" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="32.8422" y="37.0967" size="1.016" layer="27" rot="R180"/>
@@ -1707,11 +1707,11 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="U1" pad="P$32"/>
 <contactref element="R1" pad="2"/>
-<via x="28.956" y="35.5532" extent="1-16" drill="0.35"/>
-<wire x1="28.956" y1="35.5532" x2="29.139" y2="35.3702" width="0.3048" layer="16"/>
-<wire x1="29.139" y1="35.3702" x2="31.17019375" y2="35.3702" width="0.3048" layer="16"/>
-<wire x1="28.956" y1="35.5532" x2="24.190359375" y2="35.5532" width="0.254" layer="1"/>
-<wire x1="24.190359375" y1="35.5532" x2="24.17328125" y2="35.570278125" width="0.254" layer="1"/>
+<via x="28.6131" y="35.5659" extent="1-16" drill="0.35"/>
+<wire x1="28.6131" y1="35.5659" x2="28.8088" y2="35.3702" width="0.3048" layer="16"/>
+<wire x1="28.8088" y1="35.3702" x2="31.17019375" y2="35.3702" width="0.3048" layer="16"/>
+<wire x1="28.6131" y1="35.5659" x2="24.177659375" y2="35.5659" width="0.254" layer="1"/>
+<wire x1="24.177659375" y1="35.5659" x2="24.17328125" y2="35.570278125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="1"/>
