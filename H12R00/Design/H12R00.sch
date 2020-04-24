@@ -3,10 +3,10 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -326,8 +326,8 @@ Metric Code Size 3216</description>
 <wire x1="4.505" y1="-2.5" x2="4.505" y2="2.5" width="0.05" layer="39"/>
 <smd name="1" x="-3.1" y="0" dx="2.31" dy="2.52" layer="1"/>
 <smd name="2" x="3.1" y="0" dx="2.31" dy="2.52" layer="1"/>
-<wire x1="4.953" y1="2.54" x2="4.953" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="4.953" y1="2.54" x2="4.953" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.27" x2="1.143" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="1.27" x2="1.143" y2="-1.27" width="0.1524" layer="21"/>
 </package>
 <package name="SOIC127P600X175-8N">
 <wire x1="-2.0066" y1="1.651" x2="-2.0066" y2="2.159" width="0" layer="51"/>
@@ -743,13 +743,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="22.86" y1="10.16" x2="-12.7" y2="10.16" width="0.4064" layer="94"/>
 <text x="-12.45086875" y="10.2262" size="2.0849" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-12.09246875" y="-10.7369" size="2.08341875" layer="96" ratio="10" rot="SMR180">&gt;VALUE</text>
-<pin name="+VS" x="1.27" y="15.24" length="middle" direction="pwr" rot="R270"/>
-<pin name="RG" x="19.05" y="-15.24" length="middle" direction="pas" rot="R90"/>
-<pin name="VREF" x="1.27" y="-15.24" length="middle" direction="pas" rot="R90"/>
+<pin name="+VS" x="-1.27" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="RG" x="17.78" y="-15.24" length="middle" direction="pas" rot="R90"/>
+<pin name="VREF" x="2.54" y="-15.24" length="middle" direction="pas" rot="R90"/>
 <pin name="CFILT" x="10.16" y="-15.24" length="middle" direction="pas" rot="R90"/>
 <pin name="+IN" x="-17.78" y="-5.08" length="middle" direction="in"/>
 <pin name="-IN" x="-17.78" y="5.08" length="middle" direction="in"/>
-<pin name="-VS" x="7.62" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="-VS" x="-1.27" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="OUT" x="27.94" y="2.54" length="middle" direction="out" rot="R180"/>
 </symbol>
 <symbol name="CON-PHOENIX-350_SCHRAUBKLEMME">
@@ -1918,7 +1918,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="AIN" library="Hexabitz" deviceset="CON-PHOENIX-350_1751248" device=""/>
-<part name="C13" library="Hexabitz" deviceset="C-0603" device="" value="15 nF"/>
+<part name="C13" library="Hexabitz" deviceset="C-0603" device="" value="15nF"/>
 <part name="SUPPLY18" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY19" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="PWR" library="Hexabitz" deviceset="CON-PHOENIX-350_1751248" device=""/>
@@ -4284,7 +4284,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H12R00</text>
-<text x="197.0278" y="11.8364" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
+<text x="193.2178" y="11.8364" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
 Analog Input Module</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H12R00_Backend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
@@ -13161,7 +13161,7 @@ Analog Input Module</text>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H12R00</text>
-<text x="197.0278" y="11.9634" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
+<text x="191.9478" y="11.9634" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
 Analog Input Module</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H12R00_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
@@ -13207,12 +13207,12 @@ Analog Input Module</text>
 <attribute name="VALUE" x="150.876" y="150.749" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="A" x="76.2" y="95.25" smashed="yes">
-<attribute name="NAME" x="93.46713125" y="108.6512" size="2.0849" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="93.44453125" y="105.9869" size="2.08341875" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="83.30713125" y="111.1912" size="2.0849" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="83.28453125" y="107.2569" size="2.08341875" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="R5" gate="G$1" x="95.25" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.52" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.52" y="60.198" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="93.98" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.25" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="104.14" y="74.93" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="76.4286" size="1.778" layer="95"/>
@@ -13248,8 +13248,8 @@ Analog Input Module</text>
 <instance part="SUPPLY18" gate="G$1" x="86.36" y="66.04" smashed="yes">
 <attribute name="VALUE" x="89.027" y="64.135" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY19" gate="G$1" x="54.61" y="66.04" smashed="yes">
-<attribute name="VALUE" x="57.277" y="64.135" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY19" gate="G$1" x="54.61" y="74.93" smashed="yes">
+<attribute name="VALUE" x="57.277" y="73.025" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="PWR" gate="-1" x="43.18" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="148.209" size="1.778" layer="95" rot="R180"/>
@@ -13260,8 +13260,8 @@ Analog Input Module</text>
 <instance part="SUPPLY16" gate="G$1" x="137.16" y="143.51" smashed="yes">
 <attribute name="VALUE" x="139.827" y="141.605" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="83.82" y="115.57" smashed="yes" rot="R180">
-<attribute name="VALUE" x="81.153" y="117.475" size="1.778" layer="96"/>
+<instance part="SUPPLY21" gate="G$1" x="74.93" y="74.93" smashed="yes">
+<attribute name="VALUE" x="77.597" y="73.025" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U3" gate="G$1" x="209.55" y="95.25" smashed="yes">
 <attribute name="NAME" x="198.12" y="107.95" size="1.778" layer="95"/>
@@ -13307,8 +13307,8 @@ Analog Input Module</text>
 <instance part="P+3" gate="1" x="187.96" y="121.92" smashed="yes">
 <attribute name="VALUE" x="185.42" y="125.73" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="1" x="77.47" y="121.92" smashed="yes">
-<attribute name="VALUE" x="74.93" y="125.73" size="1.778" layer="96"/>
+<instance part="P+4" gate="1" x="74.93" y="114.3" smashed="yes">
+<attribute name="VALUE" x="72.39" y="118.11" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="234.95" y="121.92" smashed="yes">
 <attribute name="VALUE" x="233.045" y="125.095" size="1.778" layer="96"/>
@@ -13332,12 +13332,12 @@ Analog Input Module</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="74.93" x2="95.25" y2="74.93" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="74.93" x2="93.98" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="RG"/>
-<wire x1="95.25" y1="74.93" x2="95.25" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="74.93" x2="93.98" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="95.25" y1="68.58" x2="95.25" y2="74.93" width="0.1524" layer="91"/>
-<junction x="95.25" y="74.93"/>
+<wire x1="93.98" y1="68.58" x2="93.98" y2="74.93" width="0.1524" layer="91"/>
+<junction x="93.98" y="74.93"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13372,7 +13372,7 @@ Analog Input Module</text>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="AGND"/>
 <pinref part="U2" gate="A" pin="+IN"/>
-<wire x1="54.61" y1="68.58" x2="54.61" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="77.47" x2="54.61" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="90.17" x2="58.42" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13388,7 +13388,7 @@ Analog Input Module</text>
 <segment>
 <pinref part="U2" gate="A" pin="-VS"/>
 <pinref part="SUPPLY21" gate="G$1" pin="AGND"/>
-<wire x1="83.82" y1="110.49" x2="83.82" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="80.01" x2="74.93" y2="77.47" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="AGND"/>
@@ -13409,11 +13409,11 @@ Analog Input Module</text>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="95.25" y1="58.42" x2="95.25" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="58.42" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VREF"/>
-<wire x1="95.25" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="55.88" x2="77.47" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="55.88" x2="77.47" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="52.07" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 <junction x="86.36" y="55.88"/>
 <pinref part="SUPPLY22" gate="G$1" pin="AGND"/>
@@ -13481,7 +13481,7 @@ Analog Input Module</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="+VS"/>
-<wire x1="77.47" y1="110.49" x2="77.47" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="110.49" x2="74.93" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+15V"/>
 </segment>
 </net>
