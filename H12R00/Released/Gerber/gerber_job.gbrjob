@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-04-07T10:13:03Z",
+        "CreationDate": "2020-04-25T23:00:17Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "H12R00"
         },
-        "Owner": "Anas kaadan <anas.kaadan@outlook.com>",
+        "Owner": "Asaad Kaadan <asaad@hexabitz.com>",
         "Size": {
             "X": 34.64,
             "Y": 30
