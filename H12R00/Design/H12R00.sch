@@ -455,30 +455,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <vertex x="-2.835" y="-2.2225"/>
 </polygon>
 </package>
-<package name="SOIC127P600X172-8N">
-<circle x="-4.43" y="2.475" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.43" y="2.475" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="2.51" x2="1.95" y2="2.51" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-2.51" x2="1.95" y2="-2.51" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="-3.705" y1="2.7" x2="3.705" y2="2.7" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="-2.7" x2="3.705" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="2.7" x2="-3.705" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="3.705" y1="2.7" x2="3.705" y2="-2.7" width="0.05" layer="39"/>
-<text x="-3.9" y="-2.687" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-3.9" y="2.687" size="1.27" layer="25">&gt;NAME</text>
-<smd name="1" x="-2.48" y="1.905" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="2" x="-2.48" y="0.635" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="3" x="-2.48" y="-0.635" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="4" x="-2.48" y="-1.905" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="5" x="2.48" y="-1.905" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="6" x="2.48" y="-0.635" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="7" x="2.48" y="0.635" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-<smd name="8" x="2.48" y="1.905" dx="1.95" dy="0.57" layer="1" roundness="25"/>
-</package>
 <package name="DO214AA" urn="urn:adsk.eagle:footprint:43213/1" locally_modified="yes">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.254" layer="51"/>
@@ -524,6 +500,85 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <circle x="2.61" y="0" radius="0.25" width="0" layer="21"/>
 <smd name="2" x="-1.525" y="0" dx="1.05" dy="1.5" layer="1"/>
 <smd name="1" x="0.85" y="0" dx="2.4" dy="1.5" layer="1"/>
+</package>
+<package name="REF193GSZ_0">
+<description>ADI-REF19X-8</description>
+<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="1" y1="-2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-1" y1="-2.5" x2="-1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-2.6" x2="-3.4" y2="2.6" width="0.1" layer="39"/>
+<wire x1="-3.4" y1="2.6" x2="3.4" y2="2.6" width="0.1" layer="39"/>
+<wire x1="3.4" y1="2.6" x2="3.4" y2="-2.6" width="0.1" layer="39"/>
+<wire x1="3.4" y1="-2.6" x2="-3.4" y2="-2.6" width="0.1" layer="39"/>
+<text x="-4.4" y="2.88" size="1" layer="25">&gt;NAME</text>
+<circle x="-0.2" y="1.7" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.35" y="2.755" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.35" y="-1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.35" y="-0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.35" y="0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.35" y="1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.35" y="-1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.35" y="-0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.35" y="0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.35" y="1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="REF193GSZ_1">
+<description>ADI-REF19X-8</description>
+<wire x1="-0.9" y1="-2.5" x2="0.9" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-0.9" y1="2.5" x2="0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="0.9" y1="-2.5" x2="0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-0.9" y1="-2.5" x2="-0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="-2.75" x2="-3.75" y2="2.75" width="0.1" layer="39"/>
+<wire x1="-3.75" y1="2.75" x2="3.75" y2="2.75" width="0.1" layer="39"/>
+<wire x1="3.75" y1="2.75" x2="3.75" y2="-2.75" width="0.1" layer="39"/>
+<wire x1="3.75" y1="-2.75" x2="-3.75" y2="-2.75" width="0.1" layer="39"/>
+<text x="-4.75" y="2.88" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.4" y="2.755" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.4" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.4" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.4" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.4" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.4" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.4" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.4" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.4" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="REF193GSZ_2">
+<description>ADI-REF19X-8</description>
+<wire x1="-0.8" y1="-2.5" x2="0.8" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-0.8" y1="2.5" x2="0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="0.8" y1="-2.5" x2="0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-0.8" y1="-2.5" x2="-0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-4.2" y1="-3" x2="-4.2" y2="3" width="0.1" layer="39"/>
+<wire x1="-4.2" y1="3" x2="4.2" y2="3" width="0.1" layer="39"/>
+<wire x1="4.2" y1="3" x2="4.2" y2="-3" width="0.1" layer="39"/>
+<wire x1="4.2" y1="-3" x2="-4.2" y2="-3" width="0.1" layer="39"/>
+<text x="-5.2" y="3" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.45" y="2.805" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.45" y="-1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.45" y="-0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.45" y="0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.45" y="1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.45" y="-1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.45" y="-0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.45" y="0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.45" y="1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -762,22 +817,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="1.27" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
 <text x="13.97" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="REF193GSZ">
-<wire x1="-11.43" y1="11.43" x2="11.43" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="11.43" x2="11.43" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-10.16" x2="-11.43" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-11.43" y1="-10.16" x2="-11.43" y2="11.43" width="0.1524" layer="94"/>
-<text x="-11.43" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-11.43" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TP" x="-16.51" y="10.16" length="middle" direction="pas"/>
-<pin name="VS" x="-16.51" y="3.81" length="middle" direction="pas"/>
-<pin name="SLEEP" x="-16.51" y="-2.54" length="middle" direction="pas" function="dot"/>
-<pin name="GND" x="-16.51" y="-8.89" length="middle" direction="pas"/>
-<pin name="TP1" x="16.51" y="-8.89" length="middle" direction="pas" rot="R180"/>
-<pin name="OUTPUT" x="16.51" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="NC1" x="16.51" y="3.81" length="middle" direction="pas" rot="R180"/>
-<pin name="NC" x="16.51" y="10.16" length="middle" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="SCHOTTKY-BIDIR">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -822,6 +861,23 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="-4.064" y="5.588" size="2.54" layer="95" align="top-left">&gt;NAME</text>
 <pin name="ANODE" x="-7.62" y="0" visible="pad" length="middle"/>
 <pin name="CATHODE" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="REF193GSZ_0_0">
+<description>ADI-REF19X-8</description>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.508" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.508" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.508" layer="94"/>
+<text x="-10.16" y="11.43" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<pin name="1_TP" x="-15.24" y="0" length="middle" direction="pas"/>
+<pin name="VS" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="!SLEEP!" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="2_TP" x="-15.24" y="-2.54" length="middle" direction="pas"/>
+<pin name="OUTPUT" x="15.24" y="5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="1_NC" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="2_NC" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<text x="-10.16" y="-11.43" size="2.54" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1156,34 +1212,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REF193GSZ" prefix="U">
-<description>Voltage Reference Precision 3 Volt 30 mA 8-Pin SOIC N</description>
-<gates>
-<gate name="G$1" symbol="REF193GSZ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC127P600X172-8N">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="NC" pad="8"/>
-<connect gate="G$1" pin="NC1" pad="7"/>
-<connect gate="G$1" pin="OUTPUT" pad="6"/>
-<connect gate="G$1" pin="SLEEP" pad="3"/>
-<connect gate="G$1" pin="TP" pad="1"/>
-<connect gate="G$1" pin="TP1" pad="5"/>
-<connect gate="G$1" pin="VS" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIBTION" value="Voltage References, REF193 Series, Analog Devices; Output Voltage 3.0V, Accuracy +/- 0.33%; Output Current 30 mA; 3.3...18V; Operating Temp.: -40...+85°C (+125°C for Automotive solutions); Package SOIC-8 (SMD/SMT) " constant="no"/>
-<attribute name="MFN" value="Analog Devices" constant="no"/>
-<attribute name="MPN" value="REF193GSZ" constant="no"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ref193gsz-analog+devices-524457?r=sp" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SMBJ30CA" prefix="TVS">
 <description>TVS Diode</description>
 <gates>
@@ -1259,6 +1287,155 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-65°C"/>
 <attribute name="WORKING_PEAK_REVERSE_VOLTAGE" value="30V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REF193GSZ" prefix="U">
+<description>Voltage Reference Precision 3 Volt 30 mA 8-Pin SOIC N</description>
+<gates>
+<gate name="G$0" symbol="REF193GSZ_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ANALOG_DEVICES_REF193GSZ_0_0" package="REF193GSZ_0">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
+</technology>
+</technologies>
+</device>
+<device name="ANALOG_DEVICES_REF193GSZ_0_1" package="REF193GSZ_1">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MFN" value="Analog Devices" constant="no"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/ref193gsz-analog+devices-524457#" constant="no"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VALUE" value="REF193GSZ" constant="no"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
+</technology>
+</technologies>
+</device>
+<device name="ANALOG_DEVICES_REF193GSZ_0_2" package="REF193GSZ_2">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
 </technology>
 </technologies>
 </device>
@@ -1924,7 +2101,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="PWR" library="Hexabitz" deviceset="CON-PHOENIX-350_1751248" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY21" library="supply2" deviceset="AGND" device="" value="VSSA"/>
-<part name="U3" library="Hexabitz" deviceset="REF193GSZ" device=""/>
 <part name="C14" library="Hexabitz" deviceset="C-1206" device="" value="100 nF">
 <attribute name="CAPACITANCE" value="100 nF"/>
 <attribute name="CAPACITANCE_TOLERANCE" value="±10%"/>
@@ -1945,6 +2121,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="VCC" device="" value="3V0"/>
+<part name="U3" library="Hexabitz" deviceset="REF193GSZ" device="ANALOG_DEVICES_REF193GSZ_0_1" value="REF193GSZ"/>
 </parts>
 <sheets>
 <sheet>
@@ -13232,8 +13409,8 @@ Analog Input Module</text>
 <instance part="SUPPLY23" gate="G$1" x="134.62" y="66.167" smashed="yes">
 <attribute name="VALUE" x="137.287" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="234.95" y="66.04" smashed="yes">
-<attribute name="VALUE" x="237.617" y="64.135" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY24" gate="G$1" x="242.57" y="71.12" smashed="yes">
+<attribute name="VALUE" x="245.237" y="69.215" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="AIN" gate="-1" x="240.03" y="158.75" smashed="yes">
 <attribute name="NAME" x="241.3" y="157.861" size="1.778" layer="95"/>
@@ -13263,23 +13440,19 @@ Analog Input Module</text>
 <instance part="SUPPLY21" gate="G$1" x="74.93" y="74.93" smashed="yes">
 <attribute name="VALUE" x="77.597" y="73.025" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U3" gate="G$1" x="209.55" y="95.25" smashed="yes">
-<attribute name="NAME" x="198.12" y="107.95" size="1.778" layer="95"/>
-<attribute name="VALUE" x="198.12" y="82.55" size="1.778" layer="96"/>
+<instance part="C14" gate="G$1" x="242.57" y="82.55" smashed="yes">
+<attribute name="NAME" x="244.094" y="85.471" size="1.778" layer="95"/>
+<attribute name="VALUE" x="244.094" y="80.391" size="1.778" layer="96"/>
+<attribute name="CAPACITANCE" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="CAPACITANCE_TOLERANCE" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="DESCREPTION" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="MFN" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="OCTOPART_URL" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_RATING" x="242.57" y="82.55" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C14" gate="G$1" x="234.95" y="78.74" smashed="yes">
-<attribute name="NAME" x="236.474" y="81.661" size="1.778" layer="95"/>
-<attribute name="VALUE" x="236.474" y="76.581" size="1.778" layer="96"/>
-<attribute name="CAPACITANCE" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="CAPACITANCE_TOLERANCE" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="DESCREPTION" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="MFN" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="OCTOPART_URL" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="VOLTAGE_RATING" x="234.95" y="78.74" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SUPPLY25" gate="G$1" x="187.96" y="66.04" smashed="yes">
-<attribute name="VALUE" x="190.627" y="64.135" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY25" gate="G$1" x="231.14" y="71.12" smashed="yes">
+<attribute name="VALUE" x="233.807" y="69.215" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY26" gate="G$1" x="231.14" y="140.97" smashed="yes">
 <attribute name="VALUE" x="233.807" y="139.065" size="1.778" layer="96" rot="R180"/>
@@ -13304,14 +13477,17 @@ Analog Input Module</text>
 <instance part="P+2" gate="1" x="137.16" y="168.91" smashed="yes">
 <attribute name="VALUE" x="134.62" y="172.72" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="187.96" y="121.92" smashed="yes">
-<attribute name="VALUE" x="185.42" y="125.73" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="187.96" y="110.49" smashed="yes">
+<attribute name="VALUE" x="185.42" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="1" x="74.93" y="114.3" smashed="yes">
 <attribute name="VALUE" x="72.39" y="118.11" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="234.95" y="121.92" smashed="yes">
-<attribute name="VALUE" x="233.045" y="125.095" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="G$1" x="242.57" y="110.49" smashed="yes">
+<attribute name="VALUE" x="240.665" y="113.665" size="1.778" layer="96"/>
+</instance>
+<instance part="U3" gate="G$0" x="210.82" y="87.63" smashed="yes">
+<attribute name="NAME" x="200.66" y="99.06" size="2.54" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -13393,13 +13569,7 @@ Analog Input Module</text>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="AGND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="68.58" x2="234.95" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY25" gate="G$1" pin="AGND"/>
-<wire x1="187.96" y1="68.58" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="187.96" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="73.66" x2="242.57" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY26" gate="G$1" pin="AGND"/>
@@ -13427,6 +13597,12 @@ Analog Input Module</text>
 <pinref part="PWR" gate="-1" pin="K"/>
 <wire x1="45.72" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 <junction x="86.36" y="147.32"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$0" pin="GND"/>
+<wire x1="226.06" y1="80.01" x2="231.14" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="80.01" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -13470,14 +13646,14 @@ Analog Input Module</text>
 <pinref part="P+2" gate="1" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SLEEP"/>
-<wire x1="193.04" y1="92.71" x2="187.96" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="92.71" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VS"/>
-<wire x1="187.96" y1="99.06" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
-<junction x="187.96" y="99.06"/>
+<wire x1="195.58" y1="92.71" x2="187.96" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="92.71" x2="187.96" y2="107.95" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+15V"/>
+<pinref part="U3" gate="G$0" pin="!SLEEP!"/>
+<pinref part="U3" gate="G$0" pin="VS"/>
+<wire x1="195.58" y1="80.01" x2="187.96" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="80.01" x2="187.96" y2="92.71" width="0.1524" layer="91"/>
+<junction x="187.96" y="92.71"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="+VS"/>
@@ -13489,11 +13665,11 @@ Analog Input Module</text>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="234.95" y1="83.82" x2="234.95" y2="92.71" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="OUTPUT"/>
-<wire x1="234.95" y1="92.71" x2="226.06" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="119.38" x2="234.95" y2="92.71" width="0.1524" layer="91"/>
-<junction x="234.95" y="92.71"/>
+<wire x1="242.57" y1="87.63" x2="242.57" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="92.71" x2="226.06" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="107.95" x2="242.57" y2="92.71" width="0.1524" layer="91"/>
+<junction x="242.57" y="92.71"/>
+<pinref part="U3" gate="G$0" pin="OUTPUT"/>
 </segment>
 </net>
 <net name="N$8" class="0">
