@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2052,10 +2052,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C11" library="Hexabitz" deviceset="C-1206" device="" value="100 nF">
 <attribute name="CAPACITANCE" value="100 nF"/>
 <attribute name="CAPACITANCE_TOLERANCE" value="±10%"/>
-<attribute name="DESCREPTION" value="Ceramic capacitor SMD-1206 100nF /50V X7R# K +-10%, AVX, RoHS, /4000 reel/"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="12065C104KAT2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/12065c104kat2a-avx-39590617"/>
+<attribute name="DESCREPTION" value="CAP CER  10% X7R 0603"/>
+<attribute name="MFN" value="KEMET"/>
+<attribute name="MPN" value="C0603C104K8RACTU"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/c0603c103k5ractu-kemet-133094?r=sp&amp;s=R_iPBxLnSmGqhkU2rIMFpg"/>
 <attribute name="VOLTAGE_RATING" value="50.0 V"/>
 </part>
 <part name="C10" library="Hexabitz" deviceset="T491D106K050AT" device="" value="10 uF"/>
@@ -2104,10 +2104,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C14" library="Hexabitz" deviceset="C-1206" device="" value="100 nF">
 <attribute name="CAPACITANCE" value="100 nF"/>
 <attribute name="CAPACITANCE_TOLERANCE" value="±10%"/>
-<attribute name="DESCREPTION" value="Ceramic capacitor SMD-1206 100nF /50V X7R# K +-10%, AVX, RoHS, /4000 reel/"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="12065C104KAT2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/12065c104kat2a-avx-39590617"/>
+<attribute name="DESCREPTION" value="CAP CER  10% X7R 0603"/>
+<attribute name="MFN" value="KEMET"/>
+<attribute name="MPN" value="C0603C104K8RACTU"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/c0603c103k5ractu-kemet-133094?r=sp&amp;s=R_iPBxLnSmGqhkU2rIMFpg"/>
 <attribute name="VOLTAGE_RATING" value="50.0 V"/>
 </part>
 <part name="SUPPLY25" library="supply2" deviceset="AGND" device="" value="VSSA"/>
