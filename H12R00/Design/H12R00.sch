@@ -4461,7 +4461,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H12R00</text>
-<text x="193.2178" y="11.8364" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
+<text x="193.2178" y="11.8364" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-10v)
 Analog Input Module</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H12R00_Backend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
@@ -13338,7 +13338,7 @@ Analog Input Module</text>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H12R00</text>
-<text x="191.9478" y="11.9634" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-12v)
+<text x="191.9478" y="11.9634" size="1.9304" layer="101" font="vector" align="center">Industrial 12-Bit (0-10v)
 Analog Input Module</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H12R00_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
@@ -13363,7 +13363,7 @@ Analog Input Module</text>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="21.209" y="194.437" size="2.1844" layer="150">VDD = 3.3v</text>
 <text x="180.1622" y="4.9022" size="1.9304" layer="102" font="vector">Anas Kaadan</text>
-<text x="253.619" y="165.227" size="2.1844" layer="150" rot="R180">Analog Input (0-12v)</text>
+<text x="253.619" y="165.227" size="2.1844" layer="150" rot="R180">Analog Input (0-10v)</text>
 <text x="19.939" y="158.877" size="2.1844" layer="150">+15v</text>
 <text x="22.479" y="146.177" size="2.1844" layer="150">0v</text>
 </plain>

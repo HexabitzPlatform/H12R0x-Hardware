@@ -1,11 +1,11 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-04-25T23:00:17Z",
+        "CreationDate": "2021-09-06T08:54:28Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.3.0"
+            "Version": "9.6.2"
         },
         "Part": "Single"
     },
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "H12R00"
         },
-        "Owner": "Asaad Kaadan <asaad@hexabitz.com>",
+        "Owner": "Anas kaadan <anas.kaadan@outlook.com>",
         "Size": {
             "X": 34.64,
             "Y": 30
