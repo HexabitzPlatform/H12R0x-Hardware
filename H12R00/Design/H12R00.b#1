@@ -2271,14 +2271,14 @@ design rules under a new name.</description>
 <wire x1="-19.5925" y1="-177.2578" x2="-28.9" y2="-178.12375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART1_RX">
-<contactref element="P1" pad="PAD_PD5"/>
-<contactref element="U1" pad="46"/>
-<wire x1="-19.5925" y1="-174.2571" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="16-16"/>
+<contactref element="U1" pad="32"/>
+<contactref element="P1" pad="PAD_PD3"/>
+<wire x1="-16.9627" y1="-179.3875" x2="-16.51" y2="-185.28375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART1_TX">
-<contactref element="P1" pad="PAD_PU5"/>
-<contactref element="U1" pad="45"/>
-<wire x1="-19.5925" y1="-174.7572" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="29"/>
+<contactref element="P1" pad="PAD_PU3"/>
+<wire x1="-15.4623" y1="-179.3875" x2="-16.51" y2="-185.28375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART6_TX">
 <contactref element="U1" pad="15"/>

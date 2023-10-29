@@ -6214,7 +6214,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="167.64" x2="77.47" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SU2"/>
-<label x="63.5" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART2_RX" class="0">
@@ -6226,7 +6225,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="132.08" x2="77.47" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SD2"/>
-<label x="63.5" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6297,7 +6295,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="157.48" x2="78.105" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SU4"/>
-<label x="63.5" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART5_RX" class="0">
@@ -6309,14 +6306,12 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="121.92" x2="78.105" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SD4"/>
-<label x="63.5" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
 <wire x1="60.96" y1="116.84" x2="78.105" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SD5"/>
-<label x="63.5" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="217.17" y1="164.465" x2="234.315" y2="164.465" width="0.1524" layer="91"/>
@@ -6328,7 +6323,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="152.4" x2="78.105" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SU5"/>
-<label x="63.5" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="217.17" y1="161.925" x2="234.315" y2="161.925" width="0.1524" layer="91"/>
@@ -6359,7 +6353,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="172.72" x2="77.47" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SU1"/>
-<label x="63.5" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART4_RX" class="0">
@@ -6371,7 +6364,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="60.96" y1="137.16" x2="77.47" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="SD1"/>
-<label x="63.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">

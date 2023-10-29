@@ -1463,7 +1463,48 @@
 </library>
 <library name="HEXABITZ_CONNECTION_PARTS" urn="urn:adsk.eagle:library:20064553">
 <packages>
-<package name="SWD" urn="urn:adsk.eagle:footprint:42172674/1" library_version="56" library_locally_modified="yes">
+<package name="1984617" urn="urn:adsk.eagle:footprint:42148030/1" library_version="52">
+<description>&lt;b&gt;1984617-3&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="1.8"/>
+<text x="1.75" y="-0.725" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="1.75" y="-0.725" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.75" y1="-4.5" x2="5.25" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="5.25" y1="-4.5" x2="5.25" y2="3.05" width="0.2" layer="51"/>
+<wire x1="5.25" y1="3.05" x2="-1.75" y2="3.05" width="0.2" layer="51"/>
+<wire x1="-1.75" y1="3.05" x2="-1.75" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="-1.75" y1="3.05" x2="5.25" y2="3.05" width="0.1" layer="21"/>
+<wire x1="5.25" y1="3.05" x2="5.25" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="5.25" y1="-4.5" x2="-1.75" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-4.5" x2="-1.75" y2="3.05" width="0.1" layer="21"/>
+<wire x1="-2.75" y1="4.05" x2="6.25" y2="4.05" width="0.1" layer="51"/>
+<wire x1="6.25" y1="4.05" x2="6.25" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-5.5" x2="-2.75" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="4.05" width="0.1" layer="51"/>
+</package>
+<package name="1984620" urn="urn:adsk.eagle:footprint:42148070/1" library_version="53" library_locally_modified="yes">
+<description>&lt;b&gt;1984620-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="1.8"/>
+<pad name="3" x="7" y="0" drill="1.2" diameter="1.8"/>
+<text x="3.5" y="-0.725" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="3.5" y="-0.725" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.75" y1="-4.5" x2="8.75" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="8.75" y1="-4.5" x2="8.75" y2="3.05" width="0.2" layer="51"/>
+<wire x1="8.75" y1="3.05" x2="-1.75" y2="3.05" width="0.2" layer="51"/>
+<wire x1="-1.75" y1="3.05" x2="-1.75" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="-1.75" y1="-4.5" x2="8.75" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="8.75" y1="-4.5" x2="8.75" y2="3.05" width="0.1" layer="21"/>
+<wire x1="8.75" y1="3.05" x2="-1.75" y2="3.05" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="3.05" x2="-1.75" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="-2.75" y1="4.05" x2="9.75" y2="4.05" width="0.1" layer="51"/>
+<wire x1="9.75" y1="4.05" x2="9.75" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="9.75" y1="-5.5" x2="-2.75" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="4.05" width="0.1" layer="51"/>
+</package>
+<package name="SWD" library_version="54" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
@@ -1492,47 +1533,24 @@
 <pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
 <text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="25">&gt;VALUE</text>
-<text x="3.33375" y="-3.01625" size="1.27" layer="25">&gt;VALUE</text>
-<text x="10.63625" y="-3.01625" size="1.27" layer="25">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1984646" urn="urn:adsk.eagle:footprint:42202472/1" library_version="56">
-<description>&lt;b&gt;1984646-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.2" diameter="1.8" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="1.8"/>
-<pad name="3" x="7" y="0" drill="1.2" diameter="1.8"/>
-<pad name="4" x="10.5" y="0" drill="1.2" diameter="1.8"/>
-<pad name="5" x="14" y="0" drill="1.2" diameter="1.8"/>
-<text x="7" y="-0.725" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="7" y="-0.725" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.75" y1="-4.5" x2="15.75" y2="-4.5" width="0.2" layer="51"/>
-<wire x1="15.75" y1="-4.5" x2="15.75" y2="3.05" width="0.2" layer="51"/>
-<wire x1="15.75" y1="3.05" x2="-1.75" y2="3.05" width="0.2" layer="51"/>
-<wire x1="-1.75" y1="3.05" x2="-1.75" y2="-4.5" width="0.2" layer="51"/>
-<wire x1="-1.75" y1="-4.5" x2="15.75" y2="-4.5" width="0.1" layer="21"/>
-<wire x1="15.75" y1="-4.5" x2="15.75" y2="3.05" width="0.1" layer="21"/>
-<wire x1="15.75" y1="3.05" x2="-1.75" y2="3.05" width="0.1" layer="21"/>
-<wire x1="-1.75" y1="3.05" x2="-1.75" y2="-4.5" width="0.1" layer="21"/>
-<wire x1="-2.75" y1="4.05" x2="16.75" y2="4.05" width="0.1" layer="51"/>
-<wire x1="16.75" y1="4.05" x2="16.75" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="16.75" y1="-5.5" x2="-2.75" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="4.05" width="0.1" layer="51"/>
+<text x="3.33375" y="-3.01625" size="1.27" layer="25">&gt;VALUE</text>
+<text x="10.63625" y="-3.01625" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="1984646" urn="urn:adsk.eagle:package:42202473/1" type="box" library_version="56">
-<description>&lt;b&gt;1984646-1&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="1984617" urn="urn:adsk.eagle:package:42148031/2" type="model" library_version="52">
+<description>&lt;b&gt;1984617-3&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
-<packageinstance name="1984646"/>
+<packageinstance name="1984617"/>
 </packageinstances>
 </package3d>
-<package3d name="SWD" urn="urn:adsk.eagle:package:42172676/1" type="box" library_version="56" library_locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<package3d name="1984620" urn="urn:adsk.eagle:package:42148071/2" type="model" library_version="53" library_locally_modified="yes">
+<description>&lt;b&gt;1984620-2&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
-<packageinstance name="SWD"/>
+<packageinstance name="1984620"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1906,6 +1924,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-7.3025" y="-169.8625" locked="yes" size="1.016" layer="27" rot="R90"/>
 <attribute name="VOLTAGE_RATING" value="" x="-9.2075" y="-169.2275" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="AIN" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="1984617" package3d_urn="urn:adsk.eagle:package:42148031/2" value="1984617" x="-9.525" y="-160.49625" locked="yes" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 200 V, Pitch: 3.5 mm, Number of positions: 2, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.3mm" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1984617" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1984617" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1984617?qs=ATjOrvm3mOhUrGlJQoUcpQ%3D%3D" x="-0.15875" y="-170.33875" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-11.275" y="-159.77125" locked="yes" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="-11.275" y="-159.77125" locked="yes" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
 <element name="R6" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/6" value="49.9R" x="-10.00125" y="-171.1325" locked="yes" smashed="yes" rot="R180">
 <attribute name="MFN" value="" x="-10.00125" y="-171.1325" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-10.00125" y="-171.1325" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1914,6 +1942,16 @@ design rules under a new name.</description>
 <attribute name="RESISTANCE" value="" x="-10.00125" y="-171.1325" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="" x="-10.00125" y="-171.1325" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-9.36625" y="-169.2275" locked="yes" size="1.016" layer="27" rot="R180"/>
+</element>
+<element name="PWR" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="1984620" package3d_urn="urn:adsk.eagle:package:42148071/2" value="1984620" x="-16.51" y="-160.49625" locked="yes" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/3-3.5H 3POS HRZ 3.5mm SCREW" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.3mm" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1984620" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1984620" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1984620?qs=qPbxTIUfeZanCGLWbKOtjg%3D%3D" x="-16.51" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-20.3125" y="-154.87125" locked="yes" size="1.778" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.01" y="-159.77125" locked="yes" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="C-0805" package3d_urn="urn:adsk.eagle:package:19666489/3" value="C-0805" x="-13.335" y="-164.94125" locked="yes" smashed="yes" rot="R180">
 <attribute name="CAPACITANCE" value="10uF" x="-13.335" y="-164.94125" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2078,7 +2116,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-25.4" y="-164.1475" locked="yes" size="1.016" layer="28" rot="MR90"/>
 <attribute name="VOLTAGE_RATING_DC" value="" x="-22.225" y="-162.2425" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="SWD" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="SWD" package3d_urn="urn:adsk.eagle:package:42172676/1" value="" x="-42.06875" y="-206.85125" locked="yes" smashed="yes" rot="R270">
+<element name="SWD" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="SWD" value="" x="-42.06875" y="-206.85125" locked="yes" smashed="yes" rot="R270">
 <attribute name="PIN1" value="B" x="-40.64" y="-205.105" locked="yes" size="1.778" layer="25"/>
 <attribute name="PIN2" value="C" x="-40.64" y="-207.48625" locked="yes" size="1.778" layer="25"/>
 <attribute name="PIN3" value="D" x="-40.64" y="-210.34375" locked="yes" size="1.778" layer="25"/>
@@ -2091,17 +2129,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-9.36875" y="-167.95375" locked="yes" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/cdsod323-t03sc-bourns-10487153?r=sp" x="-7.46125" y="-169.2275" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" package="HEXABIT_17.32_NO_P6_P7_P12" package3d_urn="urn:adsk.eagle:package:20064634/2" value="HEXABIT_17.32_NO_P6_P7_P12" x="-16.51" y="-170.97375" locked="yes" smashed="yes"/>
-<element name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="1984646" package3d_urn="urn:adsk.eagle:package:42202473/1" value="1984646" x="-9.525" y="-160.49625" locked="yes" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Phoenix Contact, COMBICON PT 3.5mm Pitch, 5 Way PCB Terminal Strip" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="9.3mm" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1984646" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="651-1984646" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1984646?qs=g1oZCf%252BoH3xdW03%252BzJvi0Q%3D%3D" x="-9.525" y="-160.49625" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-16.525" y="-159.77125" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="-16.525" y="-159.77125" locked="yes" size="1.27" layer="27" rot="R180" align="center"/>
-</element>
+<element name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" package="HEXABIT_17.32_NO_P6_P7_P12" package3d_urn="urn:adsk.eagle:package:20064634/2" value="HEXABIT_17.32_NO_P6_P7_P12" x="-16.51" y="-170.97375" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -2189,7 +2217,7 @@ design rules under a new name.</description>
 <contactref element="C20" pad="1"/>
 <contactref element="TVS2" pad="C"/>
 <contactref element="TVS3" pad="1"/>
-<contactref element="J1" pad="3"/>
+<contactref element="PWR" pad="1"/>
 <wire x1="-21.2725" y1="-174.205" x2="-21.11375" y2="-173.8875" width="0" layer="19" extent="1-16"/>
 <wire x1="-22.5425" y1="-173.9875" x2="-21.2725" y2="-174.205" width="0" layer="19" extent="1-16"/>
 <wire x1="-22.80375" y1="-173.83125" x2="-22.5425" y2="-173.9875" width="0" layer="19" extent="1-16"/>
@@ -2205,13 +2233,13 @@ design rules under a new name.</description>
 <wire x1="-15.9624" y1="-172.6275" x2="-19.20875" y2="-173.2525" width="0" layer="19" extent="1-16"/>
 <wire x1="-18.89375" y1="-164.94125" x2="-19.20875" y2="-169.23" width="0" layer="19" extent="1-16"/>
 <wire x1="-19.675" y1="-162.8775" x2="-18.89375" y2="-164.94125" width="0" layer="19" extent="1-16"/>
-<wire x1="-16.525" y1="-160.49625" x2="-19.675" y2="-162.8775" width="0" layer="19" extent="16-16"/>
+<wire x1="-16.51" y1="-160.49625" x2="-19.675" y2="-162.8775" width="0" layer="19" extent="16-16"/>
 <wire x1="-14.285" y1="-164.94125" x2="-18.89375" y2="-164.94125" width="0" layer="19" extent="1-1"/>
 <wire x1="-10.42125" y1="-166.6875" x2="-14.285" y2="-164.94125" width="0" layer="19" extent="1-1"/>
 <wire x1="-10.42125" y1="-167.64" x2="-10.42125" y2="-166.6875" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.2075" y1="-168.3775" x2="-10.42125" y2="-167.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.46125" y1="-168.1275" x2="-9.2075" y2="-168.3775" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.6475" y1="-157.7975" x2="-16.525" y2="-160.49625" width="0" layer="19" extent="16-16"/>
+<wire x1="-20.6475" y1="-157.7975" x2="-16.51" y2="-160.49625" width="0" layer="19" extent="16-16"/>
 <wire x1="5.65875" y1="-179.86375" x2="-7.46125" y2="-168.1275" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
@@ -2252,33 +2280,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U1" pad="13"/>
-<contactref element="P1" pad="PAD_PU2"/>
-<wire x1="-4.12" y1="-178.12375" x2="-12.8325" y2="-173.2568" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART2_RX">
 <contactref element="U1" pad="14"/>
-<contactref element="P1" pad="PAD_PD2"/>
-<wire x1="-4.12" y1="-178.12375" x2="-12.8325" y2="-173.7569" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART5_TX">
 <contactref element="U1" pad="41"/>
-<contactref element="P1" pad="PAD_PU4"/>
-<wire x1="-19.5925" y1="-176.7577" x2="-28.9" y2="-178.12375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART5_RX">
 <contactref element="U1" pad="40"/>
-<contactref element="P1" pad="PAD_PD4"/>
-<wire x1="-19.5925" y1="-177.2578" x2="-28.9" y2="-178.12375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART1_RX">
-<contactref element="P1" pad="PAD_PD5"/>
-<contactref element="U1" pad="46"/>
-<wire x1="-19.5925" y1="-174.2571" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="16-16"/>
+<contactref element="U1" pad="32"/>
 </signal>
 <signal name="USART1_TX">
-<contactref element="P1" pad="PAD_PU5"/>
-<contactref element="U1" pad="45"/>
-<wire x1="-19.5925" y1="-174.7572" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="29"/>
 </signal>
 <signal name="USART6_TX">
 <contactref element="U1" pad="15"/>
@@ -2288,13 +2304,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART4_TX">
 <contactref element="U1" pad="11"/>
-<contactref element="P1" pad="PAD_PU1"/>
-<wire x1="-4.12" y1="-163.82375" x2="-13.9619" y2="-172.6275" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART4_RX">
 <contactref element="U1" pad="12"/>
-<contactref element="P1" pad="PAD_PD1"/>
-<wire x1="-4.12" y1="-163.82375" x2="-13.4618" y2="-172.6275" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$15">
 <contactref element="U1" pad="26"/>
@@ -2314,29 +2326,33 @@ design rules under a new name.</description>
 </signal>
 <signal name="-VS">
 <contactref element="U2" pad="2"/>
+<contactref element="D3" pad="1"/>
 <contactref element="C13" pad="2"/>
 <contactref element="C20" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="TVS2" pad="A"/>
-<contactref element="D3" pad="2"/>
+<contactref element="PWR" pad="3"/>
 <wire x1="-21.21625" y1="-166.6875" x2="-21.21625" y2="-167.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.79375" y1="-164.94125" x2="-21.21625" y2="-166.6875" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.225" y1="-163.9425" x2="-20.79375" y2="-164.94125" width="0" layer="19" extent="1-16"/>
 <wire x1="-19.13255" y1="-167.9575" x2="-21.21625" y2="-167.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.775" y1="-162.8775" x2="-20.79375" y2="-164.94125" width="0" layer="19" extent="1-16"/>
-<wire x1="-22.225" y1="-160.5425" x2="-24.775" y2="-162.8775" width="0" layer="19" extent="16-16"/>
+<wire x1="-24.775" y1="-162.8775" x2="-22.225" y2="-163.9425" width="0" layer="19" extent="16-16"/>
+<wire x1="-23.51" y1="-160.49625" x2="-24.775" y2="-162.8775" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+VS">
 <contactref element="U2" pad="7"/>
+<contactref element="D2" pad="2"/>
 <contactref element="TVS1" pad="C"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C19" pad="1"/>
-<contactref element="D2" pad="2"/>
+<contactref element="AIN" pad="1"/>
 <wire x1="-12.12125" y1="-167.64" x2="-14.20495" y2="-167.9575" width="0" layer="19" extent="1-1"/>
 <wire x1="-12.12125" y1="-166.6875" x2="-12.12125" y2="-167.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-12.385" y1="-164.94125" x2="-12.12125" y2="-166.6875" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.1125" y1="-164.10125" x2="-12.385" y2="-164.94125" width="0" layer="19" extent="1-16"/>
-<wire x1="-15.5475" y1="-157.7975" x2="-11.1125" y2="-164.10125" width="0" layer="19" extent="16-16"/>
+<wire x1="-9.525" y1="-160.49625" x2="-11.1125" y2="-164.10125" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.5475" y1="-157.7975" x2="-9.525" y2="-160.49625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CFILT">
 <contactref element="C8" pad="1"/>
@@ -2385,23 +2401,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="IN+">
 <contactref element="U2" pad="1"/>
-<contactref element="J1" pad="4"/>
-<wire x1="-20.025" y1="-160.49625" x2="-19.13255" y2="-166.6875" width="0" layer="19" extent="1-1"/>
+<contactref element="PWR" pad="2"/>
+<wire x1="-20.01" y1="-160.49625" x2="-19.13255" y2="-166.6875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN-">
 <contactref element="U2" pad="8"/>
-<contactref element="J1" pad="2"/>
+<contactref element="AIN" pad="2"/>
 <wire x1="-13.025" y1="-160.49625" x2="-14.20495" y2="-166.6875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="J1" pad="5"/>
-<contactref element="D3" pad="1"/>
-<wire x1="-22.225" y1="-163.9425" x2="-23.525" y2="-160.49625" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$3">
-<contactref element="J1" pad="1"/>
-<contactref element="D2" pad="1"/>
-<wire x1="-9.525" y1="-160.49625" x2="-11.1125" y2="-160.70125" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

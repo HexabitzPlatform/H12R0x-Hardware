@@ -2252,33 +2252,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U1" pad="13"/>
-<contactref element="P1" pad="PAD_PU2"/>
-<wire x1="-4.12" y1="-178.12375" x2="-12.8325" y2="-173.2568" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART2_RX">
 <contactref element="U1" pad="14"/>
-<contactref element="P1" pad="PAD_PD2"/>
-<wire x1="-4.12" y1="-178.12375" x2="-12.8325" y2="-173.7569" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART5_TX">
 <contactref element="U1" pad="41"/>
-<contactref element="P1" pad="PAD_PU4"/>
-<wire x1="-19.5925" y1="-176.7577" x2="-28.9" y2="-178.12375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART5_RX">
 <contactref element="U1" pad="40"/>
-<contactref element="P1" pad="PAD_PD4"/>
-<wire x1="-19.5925" y1="-177.2578" x2="-28.9" y2="-178.12375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART1_RX">
-<contactref element="P1" pad="PAD_PD5"/>
-<contactref element="U1" pad="46"/>
-<wire x1="-19.5925" y1="-174.2571" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="16-16"/>
+<contactref element="U1" pad="32"/>
 </signal>
 <signal name="USART1_TX">
-<contactref element="P1" pad="PAD_PU5"/>
-<contactref element="U1" pad="45"/>
-<wire x1="-19.5925" y1="-174.7572" x2="-28.9" y2="-163.82375" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="29"/>
 </signal>
 <signal name="USART6_TX">
 <contactref element="U1" pad="15"/>
@@ -2288,13 +2276,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART4_TX">
 <contactref element="U1" pad="11"/>
-<contactref element="P1" pad="PAD_PU1"/>
-<wire x1="-4.12" y1="-163.82375" x2="-13.9619" y2="-172.6275" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART4_RX">
 <contactref element="U1" pad="12"/>
-<contactref element="P1" pad="PAD_PD1"/>
-<wire x1="-4.12" y1="-163.82375" x2="-13.4618" y2="-172.6275" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$15">
 <contactref element="U1" pad="26"/>
