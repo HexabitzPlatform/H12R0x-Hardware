@@ -415,7 +415,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="DO214AA" urn="urn:adsk.eagle:footprint:19666417/2" locally_modified="yes" library_version="63" library_locally_modified="yes">
+<package name="DO214AA" urn="urn:adsk.eagle:footprint:19666417/3" library_version="64">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.254" layer="39"/>
 <wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.254" layer="39"/>
@@ -428,7 +428,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-2.75" y1="-0.7" x2="-2.5" y2="0.65" layer="39"/>
 <rectangle x1="2.5" y1="-0.7" x2="2.75" y2="0.65" layer="39"/>
 </package>
-<package name="SOD123" urn="urn:adsk.eagle:footprint:19666395/1" locally_modified="yes" library_version="63" library_locally_modified="yes">
+<package name="SOD123" urn="urn:adsk.eagle:footprint:19666395/2" library_version="64">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
 <wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -467,7 +467,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="1" x="-1.1" y="0" dx="0.8" dy="0.5" layer="1"/>
 <smd name="2" x="1.1" y="0" dx="0.8" dy="0.5" layer="1"/>
 </package>
-<package name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:footprint:20410716/1" locally_modified="yes" library_version="63" library_locally_modified="yes">
+<package name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:footprint:20410716/2" library_version="64">
 <smd name="P$1" x="0" y="1.199996875" dx="1.399996875" dy="0.4" layer="1"/>
 <smd name="P$2" x="0" y="0" dx="1.399996875" dy="0.4" layer="1"/>
 <smd name="P$3" x="0" y="-1.199996875" dx="1.399996875" dy="0.4" layer="1"/>
@@ -506,13 +506,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="C-0805"/>
 </packageinstances>
 </package3d>
-<package3d name="DO214AA" urn="urn:adsk.eagle:package:19666516/3" type="model" library_version="63" library_locally_modified="yes">
+<package3d name="DO214AA" urn="urn:adsk.eagle:package:19666516/4" type="model" library_version="64">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="DO214AA"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD123" urn="urn:adsk.eagle:package:19666494/2" type="model" library_version="63" library_locally_modified="yes">
+<package3d name="SOD123" urn="urn:adsk.eagle:package:19666494/3" type="model" library_version="64">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="SOD123"/>
@@ -524,7 +524,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="BOURNS_CDSOD323-T03SC_0"/>
 </packageinstances>
 </package3d>
-<package3d name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:package:20410717/1" type="box" library_version="63" library_locally_modified="yes">
+<package3d name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:package:20410717/3" type="model" library_version="64">
 <packageinstances>
 <packageinstance name="XTALL_CSTCE8M00G52"/>
 </packageinstances>
@@ -630,7 +630,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="CDSOD323" library_version="63" library_locally_modified="yes">
+<symbol name="CDSOD323" urn="urn:adsk.eagle:symbol:42217491/1" library_version="64">
 <wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.254" layer="94"/>
@@ -642,10 +642,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.75" y1="1.41" x2="0.98" y2="1.41" width="0.254" layer="94"/>
 <wire x1="2.06" y1="-1.9" x2="2.06" y2="-1.44" width="0.254" layer="94"/>
 <wire x1="2.06" y1="-1.44" x2="1.82" y2="-1.44" width="0.254" layer="94"/>
-<text x="-4.2164" y="8.9916" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.2004" y="-10.8458" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-8.89" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="-3.81" y1="1.905" x2="-6.35" y2="0" width="0.254" layer="94"/>
 <wire x1="-6.35" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
@@ -658,6 +654,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-7.14" y1="1.9" x2="-7.14" y2="1.44" width="0.254" layer="94"/>
 <wire x1="-7.14" y1="1.44" x2="-6.9" y2="1.44" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<text x="-4.2164" y="8.9916" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.2004" y="-10.8458" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-8.89" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:symbol:20410714/1" library_version="63" library_locally_modified="yes">
 <wire x1="-1.016" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
@@ -813,7 +813,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMBJ30CA" urn="urn:adsk.eagle:component:19857726/3" prefix="TVS" library_version="63" library_locally_modified="yes">
+<deviceset name="SMBJ30CA" urn="urn:adsk.eagle:component:19857726/4" prefix="TVS" library_version="64">
 <description>TVS Diode</description>
 <gates>
 <gate name="A" symbol="SCHOTTKY-BIDIR" x="-1.27" y="0"/>
@@ -825,7 +825,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="A" pin="2" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19666516/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666516/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -837,7 +837,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIOD-SOD-123" urn="urn:adsk.eagle:component:19857748/1" prefix="D" library_version="63" library_locally_modified="yes">
+<deviceset name="DIOD-SOD-123" urn="urn:adsk.eagle:component:19857748/2" prefix="D" library_version="64">
 <description>1.0 A Surface Mount Schottky Barrier Rectifier, 40 V, -65 to 125 degC, 2-Pin SOD-123 Package, RoHS, Tape and Reel</description>
 <gates>
 <gate name="G$1" symbol="SCHOTTKY-DIOD" x="0" y="0"/>
@@ -849,7 +849,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19666494/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666494/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -865,7 +865,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOURNS_CDSOD323-T03SC" urn="urn:adsk.eagle:component:20526307/4" locally_modified="yes" prefix="D" library_version="63" library_locally_modified="yes">
+<deviceset name="BOURNS_CDSOD323-T03SC" urn="urn:adsk.eagle:component:20526307/5" prefix="D" library_version="64">
 <description>CDSOD323-TxxSC - TVS Diode Series</description>
 <gates>
 <gate name="G$1" symbol="CDSOD323" x="2.54" y="0"/>
@@ -890,7 +890,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:component:20410718/1" prefix="X" uservalue="yes" library_version="63" library_locally_modified="yes">
+<deviceset name="XTALL_CSTCE8M00G52" urn="urn:adsk.eagle:component:20410718/2" prefix="X" uservalue="yes" library_version="64">
 <description>MURATA   CSTCE8M00G52-R0   RESONATOR, SMD, 8MHZ ; 
 Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <gates>
@@ -904,7 +904,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20410717/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20410717/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1260,7 +1260,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <library name="HEXABITZ_ICs" urn="urn:adsk.eagle:library:20064554">
 <description>STM32G0B1CEU6</description>
 <packages>
-<package name="HEXABITZ_ICS_QFN_B1CEU6_STM-L" urn="urn:adsk.eagle:footprint:39679330/5" library_version="108">
+<package name="HEXABITZ_ICS_QFN_B1CEU6_STM-L" urn="urn:adsk.eagle:footprint:39679330/5" locally_modified="yes" library_version="112" library_locally_modified="yes">
 <wire x1="-3.683" y1="-3.683" x2="-3.185" y2="-3.683" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="-3.683" x2="3.683" y2="-3.185" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="3.683" x2="3.185" y2="3.683" width="0.1524" layer="21"/>
@@ -1577,7 +1577,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <dimension x1="-2.8956" y1="-3.0988" x2="-2.8956" y2="3.0988" x3="-6.5786" y3="0" textsize="0.254" layer="48" dtype="vertical" width="0"/>
 <dimension x1="-3.6576" y1="2.8956" x2="3.6576" y2="2.8956" x3="0" y3="4.572" textsize="0.254" layer="48" dtype="horizontal" width="0"/>
 <dimension x1="-3.0988" y1="2.8194" x2="3.0988" y2="2.8702" x3="0" y3="6.3246" textsize="0.254" layer="48" dtype="horizontal" width="0"/>
-<circle x="-3.302" y="4.4958" radius="0.234175" width="0.4064" layer="21"/>
+<circle x="-3.302" y="3.38455" radius="0.234175" width="0.4064" layer="21"/>
 </package>
 <package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:20278706/1" locally_modified="yes" library_version="112" library_locally_modified="yes">
 <wire x1="-1.9812" y1="1.651" x2="-1.9812" y2="2.159" width="0.1524" layer="51"/>
@@ -2613,7 +2613,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABITZ_ICS_QFN_B1CEU6_STM-L" urn="urn:adsk.eagle:package:39679334/6" type="model" library_version="108">
+<package3d name="HEXABITZ_ICS_QFN_B1CEU6_STM-L" urn="urn:adsk.eagle:package:39679334/6" type="model" library_version="112" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HEXABITZ_ICS_QFN_B1CEU6_STM-L"/>
 </packageinstances>
@@ -2734,7 +2734,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32G0B1CEU6N" urn="urn:adsk.eagle:component:39679338/6" prefix="U" library_version="108">
+<deviceset name="STM32G0B1CEU6N" urn="urn:adsk.eagle:component:39679338/6" prefix="U" library_version="112" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="HEXABITZ_ICS_STM32G0B1CEU6N" x="0" y="0"/>
 </gates>
@@ -3180,13 +3180,13 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <packageinstance name="1X03/90"/>
 </packageinstances>
 </package3d>
-<package3d name="1984646" urn="urn:adsk.eagle:package:42202473/1" type="box" library_version="56">
+<package3d name="1984646" urn="urn:adsk.eagle:package:42202473/2" type="model" library_version="58">
 <description>&lt;b&gt;1984646-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1984646"/>
 </packageinstances>
 </package3d>
-<package3d name="SWD" urn="urn:adsk.eagle:package:42172676/1" type="box" library_version="56" library_locally_modified="yes">
+<package3d name="SWD" urn="urn:adsk.eagle:package:42172676/2" type="model" library_version="58">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="SWD"/>
@@ -3253,7 +3253,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="1984646" urn="urn:adsk.eagle:symbol:42202471/1" locally_modified="yes" library_version="56" library_locally_modified="yes">
+<symbol name="1984646" urn="urn:adsk.eagle:symbol:42202471/2" library_version="58">
 <wire x1="-5.715" y1="10.16" x2="4.445" y2="10.16" width="0.254" layer="94"/>
 <wire x1="4.445" y1="-9.525" x2="4.445" y2="10.16" width="0.254" layer="94"/>
 <wire x1="4.445" y1="-9.525" x2="-5.715" y2="-9.525" width="0.254" layer="94"/>
@@ -3346,7 +3346,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:42172679/1" prefix="JP" uservalue="yes" library_version="56" library_locally_modified="yes">
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:42172679/2" prefix="JP" uservalue="yes" library_version="58">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD3" x="0" y="0"/>
@@ -3389,7 +3389,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <connect gate="A" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:42172676/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42172676/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3397,7 +3397,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1984646" urn="urn:adsk.eagle:component:42202474/1" prefix="J" library_version="56" library_locally_modified="yes">
+<deviceset name="1984646" urn="urn:adsk.eagle:component:42202474/2" prefix="J" library_version="58">
 <description>&lt;b&gt;Phoenix Contact, COMBICON PT 3.5mm Pitch, 5 Way PCB Terminal Strip&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/1074867.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3413,7 +3413,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:42202473/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42202473/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3445,13 +3445,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="MPN" value="VLMS1300-GS08"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=_gcP4_q8T1SC6PJQPTQ9yA"/>
 </part>
-<part name="X1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="XTALL_CSTCE8M00G52" device="" package3d_urn="urn:adsk.eagle:package:20410717/1" value="XTALL_CSTCE8M00G52"/>
+<part name="X1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="XTALL_CSTCE8M00G52" device="" package3d_urn="urn:adsk.eagle:package:20410717/3" value="XTALL_CSTCE8M00G52"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="R"/>
+<part name="RESET" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="R"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="10K"/>
@@ -3483,7 +3483,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="P+2" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VREF" device=""/>
 <part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="AD628ARZ" device="" package3d_urn="urn:adsk.eagle:package:19881610/4"/>
 <part name="C8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="15nF"/>
-<part name="R4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="5K"/>
+<part name="R4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="4.99K"/>
 <part name="P+3" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VREF/2" device=""/>
 <part name="P+4" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="+VS" device=""/>
 <part name="P-1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="-VS" device=""/>
@@ -3530,11 +3530,11 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C20" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="100pF">
 <attribute name="MPN" value="C1608X7R1H104K080AA"/>
 </part>
-<part name="TVS1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="SMBJ30CA" device="" package3d_urn="urn:adsk.eagle:package:19666516/3"/>
-<part name="TVS2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="SMBJ30CA" device="" package3d_urn="urn:adsk.eagle:package:19666516/3"/>
-<part name="D2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="DIOD-SOD-123" device="" package3d_urn="urn:adsk.eagle:package:19666494/2"/>
-<part name="D3" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="DIOD-SOD-123" device="" package3d_urn="urn:adsk.eagle:package:19666494/2"/>
-<part name="SWD" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PINHD-1X3" device="SWD" package3d_urn="urn:adsk.eagle:package:42172676/1"/>
+<part name="TVS1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="SMBJ30CA" device="" package3d_urn="urn:adsk.eagle:package:19666516/4"/>
+<part name="TVS2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="SMBJ30CA" device="" package3d_urn="urn:adsk.eagle:package:19666516/4"/>
+<part name="D2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="DIOD-SOD-123" device="" package3d_urn="urn:adsk.eagle:package:19666494/3"/>
+<part name="D3" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="DIOD-SOD-123" device="" package3d_urn="urn:adsk.eagle:package:19666494/3"/>
+<part name="SWD" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PINHD-1X3" device="SWD" package3d_urn="urn:adsk.eagle:package:42172676/2"/>
 <part name="P+8" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="+VS" device=""/>
 <part name="P-3" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="-VS" device=""/>
 <part name="SUPPLY13" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
@@ -3544,7 +3544,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="P-4" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="-VS" device=""/>
 <part name="SUPPLY19" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
 <part name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" deviceset="HEXABIT_?_NO_P6_P7_P12" device="17.32" package3d_urn="urn:adsk.eagle:package:20064634/2"/>
-<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1984646" device="" package3d_urn="urn:adsk.eagle:package:42202473/1"/>
+<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1984646" device="" package3d_urn="urn:adsk.eagle:package:42202473/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5932,8 +5932,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="GND10" gate="1" x="100.33" y="147.955" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="103.505" y="145.415" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R" gate="G$1" x="99.06" y="133.35" smashed="yes" rot="R180">
-<attribute name="NAME" x="100.33" y="137.16" size="1.778" layer="95"/>
+<instance part="RESET" gate="G$1" x="99.06" y="133.35" smashed="yes" rot="R180">
+<attribute name="NAME" x="97.155" y="137.16" size="1.778" layer="95"/>
 </instance>
 <instance part="GND9" gate="1" x="220.98" y="172.085" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="223.52" y="174.625" size="1.778" layer="96" rot="MR270"/>
@@ -6249,7 +6249,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="146.05" y1="149.225" x2="114.935" y2="149.225" width="0.1524" layer="91"/>
 <wire x1="114.935" y1="149.225" x2="114.935" y2="133.35" width="0.1524" layer="91"/>
 <wire x1="114.935" y1="133.35" x2="109.855" y2="133.35" width="0.1524" layer="91"/>
-<pinref part="R" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="133.35" x2="109.855" y2="133.35" width="0.1524" layer="91"/>
 <junction x="109.855" y="133.35"/>
 <pinref part="U1" gate="A" pin="PF2-NRST"/>
@@ -8795,12 +8795,18 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="58.42" y1="85.725" x2="90.805" y2="85.725" width="0.1524" layer="90"/>
 <wire x1="90.805" y1="85.725" x2="90.805" y2="94.615" width="0.1524" layer="90"/>
 <wire x1="90.805" y1="94.615" x2="58.42" y2="94.615" width="0.1524" layer="90"/>
-<text x="207.01" y="84.455" size="2.54" layer="89" font="vector" ratio="11" distance="45">Vo = (0.1) * (1 + 5/10) Vin</text>
-<wire x1="206.375" y1="89.535" x2="206.375" y2="83.185" width="0.1524" layer="90"/>
-<wire x1="206.375" y1="83.185" x2="253.365" y2="83.185" width="0.1524" layer="90"/>
-<wire x1="253.365" y1="83.185" x2="253.365" y2="89.535" width="0.1524" layer="90"/>
-<wire x1="253.365" y1="89.535" x2="206.375" y2="89.535" width="0.1524" layer="90"/>
+<text x="207.01" y="84.455" size="2.54" layer="89" font="vector" ratio="11" distance="45">Vo = Gain * Vin + VREF/2
+Gain = (0.1) * (1 + R4/R5)</text>
+<wire x1="206.375" y1="91.44" x2="206.375" y2="83.185" width="0.1524" layer="90"/>
+<wire x1="206.375" y1="83.185" x2="250.19" y2="83.185" width="0.1524" layer="90"/>
+<wire x1="250.19" y1="83.185" x2="250.19" y2="91.44" width="0.1524" layer="90"/>
+<wire x1="250.19" y1="91.44" x2="206.375" y2="91.44" width="0.1524" layer="90"/>
 <text x="219.71" y="136.525" size="3.81" layer="101" ratio="31">U2 Coupling</text>
+<text x="142.875" y="200.66" size="2.54" layer="89" font="vector" ratio="11" distance="46">VREF = 3 Volt</text>
+<wire x1="142.24" y1="204.47" x2="142.24" y2="199.39" width="0.1524" layer="90"/>
+<wire x1="142.24" y1="199.39" x2="165.735" y2="199.39" width="0.1524" layer="90"/>
+<wire x1="165.735" y1="199.39" x2="165.735" y2="204.47" width="0.1524" layer="90"/>
+<wire x1="165.735" y1="204.47" x2="142.24" y2="204.47" width="0.1524" layer="90"/>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="133.35" y="90.17" smashed="yes">
