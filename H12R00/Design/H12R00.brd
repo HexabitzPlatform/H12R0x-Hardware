@@ -609,6 +609,7 @@
 <wire x1="5.3975" y1="15.875" x2="5.55625" y2="16.03375" width="0.0762" layer="25" style="shortdash"/>
 <wire x1="5.55625" y1="14.12875" x2="5.3975" y2="13.97" width="0.0762" layer="25" style="shortdash"/>
 <wire x1="5.3975" y1="13.97" x2="4.7625" y2="13.97" width="0.0762" layer="25" style="shortdash"/>
+<text x="-1.905" y="0.3175" size="1.9304" layer="22" rot="SMR0">P3</text>
 </plain>
 <libraries>
 <library name="Hexabitz">
